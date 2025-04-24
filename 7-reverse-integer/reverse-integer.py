@@ -9,11 +9,11 @@ class Solution:
             x = int(x / 10)
 
             if (res > max //10 or
-                (res == max //10 and digit >= max % 10)):
+                (res == max //10 and digit >= 7)):
                 return 0
 
             if (res < min //10 or
-                (res == min //10 and digit <= min % 10)):
+                (res == min //10 and digit <= 7)):
                 return 0
 
             res = (res * 10) + digit
