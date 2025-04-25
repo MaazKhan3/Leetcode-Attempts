@@ -19,13 +19,13 @@ class Solution:
             result = result * 10 + int(char)
         result = result * sign
 
-        min = -2**31
-        max = 2**31 -1
+        MIN = -2**31
+        MAX = 2**31 -1
 
-        if result < min:
-            return min
-        if result > max:
-            return max
+        if result < MIN:
+            return MIN
+        if result > MAX:
+            return MAX
 
         return result
         
